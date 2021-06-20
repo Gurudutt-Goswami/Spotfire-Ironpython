@@ -1,4 +1,5 @@
 #these are neccessary imports required to show messagebox
+
 import clr
 clr.AddReference("System.Windows.Forms")
 from System.Windows.Forms import MessageBox, MessageBoxButtons
@@ -6,7 +7,7 @@ from System.Windows.Forms import DialogResult
 
 import clr 
 clr.AddReference("Microsoft.Office.Interop.Outlook")
-emailid=Document.Properties["EmailId"];
+emailid=Document.Properties["EmailId"]; #EmailId is a document property & so as MailSubject & MailContent
 mailsub=Document.Properties["MailSubject"];
 MailContent=Document.Properties["MailContent"];
 

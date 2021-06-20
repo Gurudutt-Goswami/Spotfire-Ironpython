@@ -6,7 +6,7 @@
 
 ### Some Important Links
 ````
-   <https://community.tibco.com/wiki/ironpython-scripting-tibco-spotfire>
+   [Ironpython Scripts Collection](https://community.tibco.com/wiki/ironpython-scripting-tibco-spotfire>)
    <https://spotfired.blogspot.com/>
 ````
 

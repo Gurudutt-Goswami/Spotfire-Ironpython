@@ -1,3 +1,5 @@
+#Modify the path of the file in 6 & 7 line
+
 from System.IO import Path, StreamWriter
 from Spotfire.Dxp.Application.Visuals import CrossTablePlot
 

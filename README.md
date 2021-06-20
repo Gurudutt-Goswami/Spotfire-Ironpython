@@ -30,3 +30,13 @@
       17. Write Back to Database.py
       18. Write to a file.py
       19. Yes-No MsgBox.py
+      
+### Other Basic Things
+1. ##### Go to Specific Page 
+   Document.ActivePageReference = Document.Pages[2]
+2. ##### Get Current Username
+   from System.Threading import Thread 
+   print Thread.CurrentPrincipal.Identity.Name 
+3. ##### Loop Through Pages
+   for page in Application.Document.Pages:
+   print page.Title

@@ -1,3 +1,5 @@
+#justchecking is document property name & anupam is it's value 
+#Region is the column which you want to hide/show
 from Spotfire.Dxp.Application.Filters import *
 from Spotfire.Dxp.Application import PanelTypeIdentifiers
  

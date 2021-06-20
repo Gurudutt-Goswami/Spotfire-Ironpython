@@ -1,3 +1,6 @@
+#Run following ironpython just replace “Sample Data” with your tabel name and column name “Region” & "Item" with your column name for which you have to find distinctive values.
+
+
 #get unique values from column (7.0)
 from Spotfire.Dxp.Data import DataValueCursor
 from Spotfire.Dxp.Data import IndexSet

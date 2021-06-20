@@ -6,3 +6,4 @@ In Spotfire generally to invoke Ironpython scripts its better to facitilate usin
 ```
 Right here so that text come as it is 
 ```
+### Clear a particular column

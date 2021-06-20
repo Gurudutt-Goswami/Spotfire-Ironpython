@@ -22,6 +22,7 @@ while distinctRows.MoveNext():vals.append(cursor.CurrentValue)
 
 print vals
 
+#The following code is just a copy paste of above code so as to get distinct values for two columns concurrently, Obviously its not necessary at all 
 dt = Document.Data.Tables[tableName]
 cursor = DataValueCursor.Create[str](dt.Columns[columnName1])
 distinctRows = dt.GetDistinctRows(None,cursor) #none param to grab them by the all

@@ -1,3 +1,5 @@
+#Replace "Hierarchy" with your hierarchy column name
+
 import Spotfire.Dxp.Application.Filters as filters
 import Spotfire.Dxp.Application.Filters.ListBoxFilter
 from Spotfire.Dxp.Application.Filters import FilterTypeIdentifiers

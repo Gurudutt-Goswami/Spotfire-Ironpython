@@ -1,3 +1,6 @@
+#you can modify path of targetfilename as per your need, also if you don't want to mention & wanted to save file in temp just uncomment line 8
+#you can also have a lot more fun connecting this with multiline input field document property
+
 from System.IO import Path, StreamWriter
 from Spotfire.Dxp.Application.Visuals import CrossTablePlot
 

@@ -1,3 +1,9 @@
+'''
+Note:
+You can modify the code as per your requirement but things which must have to be correct is server name ,
+databasename,user & password  in order to successfully write back to database.
+'''
+
 from Spotfire.Dxp.Data import *
 
 #these are neccessary imports required to show messagebox

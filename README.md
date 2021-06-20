@@ -5,8 +5,8 @@
 ##### For more information regarding other services for extending Spotfire capabilities, please refer the Spotfire Technology Network: http://stn.spotfire.com
 
 ### Some Important Links
-   1. ##### Complete Collection of Ironpython scripts : https://community.tibco.com/wiki/ironpython-scripting-tibco-spotfire
-   2. ##### https://spotfired.blogspot.com/
+      1. ##### Complete Collection of Ironpython scripts : [a link] https://community.tibco.com/wiki/ironpython-scripting-tibco-spotfire
+      2. ##### [a link] https://spotfired.blogspot.com/
 
 ### This Repository Contains following scripts:
       1. Clear All hierarchy columns.py

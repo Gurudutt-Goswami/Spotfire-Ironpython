@@ -44,3 +44,7 @@
    for page in Application.Document.Pages:
    print page.Title
 ````
+4. ##### Use document property directly inside a calculated column to make wild card search on an input field 
+````
+case when Upper([City]) ~= Upper("${wildcard}") then "Y" else "N" end
+````

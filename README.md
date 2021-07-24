@@ -1,7 +1,7 @@
 # Spotfire-Ironpython
 
 1. This repository contains IronPython scripts for use within the Tibco Spotfire.
-2. Also find my short creative collection of Spotfire TextArea codes in Spotfire-JS-Jquery repository along with their sample output screenshots.
+2. Also I have a seperate repository (called Spotfire-JS-Jquery) for some basic UI designs in Spotfire TextArea along with codes & screenshots.
 3. For more information regarding other services for extending Spotfire capabilities, please refer the Spotfire Technology Network: http://stn.spotfire.com
 
 ### Some Important Links

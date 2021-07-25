@@ -1,5 +1,3 @@
-![Concept](https://user-images.githubusercontent.com/86184439/126883861-7874f05a-c522-4f65-b8c2-582c9e43fb95.PNG)
-![Concept](https://user-images.githubusercontent.com/86184439/126883866-4d0c6651-304a-489c-9c6b-9af94dfc3f9f.PNG)
 # Spotfire-Ironpython
 
 1. This repository contains IronPython scripts for use within the Tibco Spotfire.

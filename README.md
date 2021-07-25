@@ -1,3 +1,5 @@
+![Concept](https://user-images.githubusercontent.com/86184439/126883861-7874f05a-c522-4f65-b8c2-582c9e43fb95.PNG)
+![Concept](https://user-images.githubusercontent.com/86184439/126883866-4d0c6651-304a-489c-9c6b-9af94dfc3f9f.PNG)
 # Spotfire-Ironpython
 
 1. This repository contains IronPython scripts for use within the Tibco Spotfire.
@@ -47,4 +49,8 @@
 4. ##### Use document property directly inside a calculated column to make wild card search on an input field eg.
 ````
 case when Upper([City]) ~= Upper("${wildcard}") then "Y" else "N" end
+````
+5. ##### When you have blank values due to multiple blank lines in Spotfire & thus Spotfire not considering them as NULL
+````
+![Concept](https://user-images.githubusercontent.com/86184439/126883875-8b48a0dc-d7c5-4041-8c0c-adfddcc0ed69.PNG)
 ````

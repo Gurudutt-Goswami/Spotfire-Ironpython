@@ -48,7 +48,8 @@
 ````
 case when Upper([City]) ~= Upper("${wildcard}") then "Y" else "N" end
 ````
-5. ##### Want to subtract a single day using ironpython. You can also write following code in single, this is just for ease of understanding.
+5. ##### Want to subtract a single day using ironpython. 
+   ##### Note :You can also write following code in single line, this is just for ease of understanding.
 ````
    a = Document.Properties['StartDate']
    a = a.AddDays(-1)

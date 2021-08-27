@@ -30,6 +30,13 @@
       17. Write Back to Database.py
       18. Write to a file.py
       19. Yes-No MsgBox.py
+### 20. Search Input Field (ie., Document Property) which will work on Graph
+      1.Go to “View > tag” named “New Tag Collection” to “Result” and with in it make two tag “Yes” and “No”.
+      2.	Add attached Iron python in document properties > scripts > iron python.
+      (Note:Do not forget to add script parameter ”myTable” as Data Table.Name this script as search_python)
+      3. Add a textarea and in that , add an input field (string) as “search” and link above iron python created script to that.
+      4.	To change a graph acc to search just go to that graph right click > “properties > data > limit data using expression” and write “Result=”Yes” ”.
+
       
 ### Other Basic Things
 1. ##### Go to Specific Page 

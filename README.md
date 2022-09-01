@@ -73,7 +73,8 @@ case when Upper([City]) ~= Upper("${wildcard}") then "Y" else "N" end
 Spotfire Id control of string input document property
 </span>
 
-2. Write following javascript in the same textarea area to update step 1 document property with date. Note the DOMsubtreemodified function is to make sure everytime when something changes in 'fun' section this js runs 
+2. Write following javascript in the same textarea area to update step 1 document property with date. 
+Note the DOMsubtreemodified function is to make sure everytime when something changes in 'fun' section this js runs 
 
          $("#fun").on("DOMSubtreeModified",function(){
 
@@ -86,7 +87,8 @@ Spotfire Id control of string input document property
          }
          })
 
-3. On the change/set of this date input field call following ironpython script. Note testdata is going to be your datatable & id is going to be your column name.
+3. On the change/set of this date input field call following ironpython script. 
+Note testdata is going to be your datatable & id is going to be your column name.
 
 activeFilteringSelection = Document.ActiveFilteringSelectionReference.GetSelection(testdata).AsIndexSet()
 column = testdata.Columns["Id"]

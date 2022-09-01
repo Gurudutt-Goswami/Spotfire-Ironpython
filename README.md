@@ -64,3 +64,34 @@ case when Upper([City]) ~= Upper("${wildcard}") then "Y" else "N" end
 ````
 6. ##### When you have blank values due to multiple blank lines in Spotfire & thus Spotfire not considering them as NULL
 ![Concept](https://user-images.githubusercontent.com/86184439/126883875-8b48a0dc-d7c5-4041-8c0c-adfddcc0ed69.PNG)
+
+7. ##### Get Max value of range filter in document property
+````
+1. Make a string input document property in textarea area & name its div as "uid"
+```
+<span id="uid">
+Spotfire Id control of string input document property
+</span>
+```
+2. Write following javascript in the same textarea area to update step 1 document property with date. Note the DOMsubtreemodified function is to make sure everytime when something changes in 'fun' section this js runs 
+```
+         $("#fun").on("DOMSubtreeModified",function(){
+
+         var d = new Date().getTime()/1000;
+         $("#uid input").val(d).blur();
+         function value()
+         {
+            var d = new Date().getTime()/1000;
+            $("#uid input").val(d).blur();
+         }
+         })
+```
+3. On the change/set of this date input field call following ironpython script. Note testdata is going to be your datatable & id is going to be your column name.
+```
+activeFilteringSelection = Document.ActiveFilteringSelectionReference.GetSelection(testdata).AsIndexSet()
+column = testdata.Columns["Distance from center"]
+max = column.RowValues.GetMaxValue(activeFilteringSelection).ValidValue
+#print max
+Document.Properties["maxvalue"]=str(max)
+```
+````

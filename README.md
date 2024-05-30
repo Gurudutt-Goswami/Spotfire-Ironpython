@@ -97,3 +97,5 @@ max = column.RowValues.GetMaxValue(activeFilteringSelection).ValidValue
 Document.Properties["maxvalue"]=str(max)
 
 ````
+8. ##### Searching the library
+```https://docs.tibco.com/pub/spotfire/7.0.1/doc/html/lib/lib_searching_the_library.htm```

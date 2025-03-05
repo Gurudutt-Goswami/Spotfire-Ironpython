@@ -102,6 +102,5 @@ Document.Properties["maxvalue"]=str(max)
 
 
 9. ##### lead/lag/intersect function in spotfire
-````
 ```https://stackoverflow.com/questions/47165178/lag-lead-using-spotfire-custom-expression```
-````
+
